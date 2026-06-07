@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>LUXDRIVE — Премиальный Трезвый Водитель Алматы</title>
+<meta name="description" content="Премиальный сервис трезвый водитель в Алматы и Алматинской области. 24/7.">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Montserrat,sans-serif;background:#090909;color:#fff}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1800&auto=format&fit=crop') center/cover;display:flex;align-items:center}
+.container{width:min(1200px,92%);margin:auto}
+.logo{position:fixed;top:25px;left:40px;font-weight:800;font-size:32px;color:#d4af37;z-index:100}
+.lang{position:fixed;top:25px;right:40px;z-index:100}
+.lang button{padding:10px 15px;border:none;border-radius:30px;margin-left:5px}
+h1{font-size:70px;line-height:1.1}
+.gold{color:#d4af37}
+p{line-height:1.7}
+.btn{display:inline-block;padding:18px 35px;border-radius:50px;text-decoration:none;font-weight:700;margin:10px}
+.primary{background:#d4af37;color:#000}
+.secondary{border:2px solid #d4af37;color:#fff}
+section{padding:90px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:rgba(255,255,255,.05);backdrop-filter:blur(12px);padding:30px;border:1px solid rgba(212,175,55,.2);border-radius:22px}
+.center{text-align:center}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.stat{padding:25px;background:#111;border-radius:20px;text-align:center}
+h2{font-size:42px;color:#d4af37;text-align:center;margin-bottom:40px}
+.float{position:fixed;right:20px;bottom:20px;display:flex;flex-direction:column;gap:10px}
+.float a{padding:16px;border-radius:50px;text-decoration:none;font-weight:700}
+.call{background:#d4af37;color:#000}
+.wa{background:#25D366;color:#fff}
+footer{background:#050505;padding:50px;text-align:center}
+@media(max-width:768px){h1{font-size:42px}.stats{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<div class="logo">LUXDRIVE</div>
+
+<div class="lang">
+<button onclick="lang('ru')">RU</button>
+<button onclick="lang('kz')">KZ</button>
+</div>
+
+<section class="hero">
+<div class="container">
+<h1 id="t1">Премиальный <span class="gold">Трезвый Водитель</span><br>в Алматы 24/7</h1>
+<br>
+<p id="t2">Безопасно доставим вас и ваш автомобиль домой. Алматы и Алматинская область.</p>
+<br>
+<a class="btn primary" href="tel:+77474388470" id="b1">Вызвать водителя</a>
+<a class="btn secondary" target="_blank" href="https://wa.me/77474388470?text=Здравствуйте!%20Хочу%20заказать%20услугу%20Трезвый%20водитель.">WhatsApp</a>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="stats">
+<div class="stat"><h2>5000+</h2><p>Заказов</p></div>
+<div class="stat"><h2>15 мин</h2><p>Подача</p></div>
+<div class="stat"><h2>24/7</h2><p>Поддержка</p></div>
+<div class="stat"><h2>98%</h2><p>Клиентов рекомендуют</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2 id="why">Почему выбирают LUXDRIVE</h2>
+<div class="grid">
+<div class="card">🚘 Опытные и вежливые водители</div>
+<div class="card">⚡ Быстрая подача от 15 минут</div>
+<div class="card">🛡 Безопасность автомобиля</div>
+<div class="card">🌙 Работаем круглосуточно</div>
+<div class="card">📍 Алматы и область</div>
+<div class="card">💳 Удобная оплата</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container center">
+<h2>Стоимость</h2>
+<p>Цены от <b>5000 ₸</b>. Стоимость зависит от расстояния, времени суток и условий поездки.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Как мы работаем</h2>
+<div class="grid">
+<div class="card">1️⃣ Оставляете заявку</div>
+<div class="card">2️⃣ Назначаем водителя</div>
+<div class="card">3️⃣ Быстрая подача</div>
+<div class="card">4️⃣ Безопасная поездка</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<h2>Отзывы</h2>
+<div class="grid">
+<div class="card">★★★★★<br><br>Отличный сервис, приехали быстро. — Александр</div>
+<div class="card">★★★★★<br><br>Очень удобно после мероприятий. — Марина</div>
+<div class="card">★★★★★<br><br>Пользуюсь постоянно. — Данияр</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container center">
+<h2>Готовы заказать?</h2>
+<a class="btn primary" href="tel:+77474388470">Позвонить сейчас</a>
+<a class="btn secondary" target="_blank" href="https://wa.me/77474388470?text=Здравствуйте!%20Хочу%20заказать%20услугу%20Трезвый%20водитель.">Написать в WhatsApp</a>
+</div>
+</section>
+
+<footer>
+<h3>LUXDRIVE</h3>
+<p>Трезвый водитель Алматы и Алматинская область</p>
+<p>+7 747 438 84 70 • Поддержка 24/7</p>
+</footer>
+
+<div class="float">
+<a class="call" href="tel:+77474388470">📞 Звонок</a>
+<a class="wa" target="_blank" href="https://wa.me/77474388470?text=Здравствуйте!%20Хочу%20заказать%20услугу%20Трезвый%20водитель.">💬 WhatsApp</a>
+</div>
+
+<script>
+function lang(l){
+if(l==='kz'){
+t1.innerHTML='Алматыдағы <span class="gold">Сергек Жүргізуші</span><br>24/7';
+t2.innerHTML='Сізді және көлігіңізді қауіпсіз жеткіземіз.';
+b1.innerHTML='Жүргізуші шақыру';
+why.innerHTML='Неліктен бізді таңдайды';
+}else{
+t1.innerHTML='Премиальный <span class="gold">Трезвый Водитель</span><br>в Алматы 24/7';
+t2.innerHTML='Безопасно доставим вас и ваш автомобиль домой. Алматы и Алматинская область.';
+b1.innerHTML='Вызвать водителя';
+why.innerHTML='Почему выбирают LUXDRIVE';
+}}
+</script>
+</body>
+</html>
